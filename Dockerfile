@@ -1,9 +1,9 @@
 FROM alpine:3.9
-MAINTAINER lhie1<lhie1x@gmail.com>
 
 ENV NODE_ID=0                    \
     NS1=8.8.4.4                  \
     NS2=1.0.0.1                  \
+    SPEEDTEST=0                  \
     ANTISSATTACK=0               \
     MU_SUFFIX=zhaoj.in           \
     MU_REGEX=%5m%id.%suffix      \
